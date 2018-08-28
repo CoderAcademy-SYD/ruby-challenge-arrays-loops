@@ -34,7 +34,7 @@ puts kardashians
 # 5) Find a way to count the Kardashians in the array that begin with the letter 'K'
 count = 0
 kardashians.each do |kardashian|
-  if kardashians.first
+  if kardashians.first == 'k'
     count += 1
   end
 end
